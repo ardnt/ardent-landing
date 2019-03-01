@@ -1,20 +1,21 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { FaGithub } from 'react-icons/fa'
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import { Layout, Logo, SEO } from '../components'
+import { Intro, Tagline, SocialLink, SocialLinks } from '../ui'
+
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO title="Hello!" keywords={[`ardent`, `company`, `labs`]} />
+    <Logo />
+    <Intro>The Ardent Company</Intro>
+    <Tagline>Working to improve transparency in modern organizations</Tagline>
+    <SocialLinks>
+      <SocialLink href="https://github.com/ardent-co" target="_blank">
+        <FaGithub />
+      </SocialLink>
+    </SocialLinks>
   </Layout>
 )
 
