@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "name": "ardent-landing",
+  "scope": "ardnt",
+  "alias": [
+    "ardentlabs.net",
+    "www.ardentlabs.net"
+  ],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "public"
+      }
+    }
+  ]
+}
