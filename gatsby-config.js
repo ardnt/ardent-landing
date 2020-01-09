@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `The Ardent Company`,
-    description: `Hello from The Ardent Company!`,
+    title: `Ardent`,
+    description: `Hello from Ardent!`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,13 +18,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `The Ardent Company`,
+        name: `Ardent`,
         short_name: `Ardent`,
         start_url: `/`,
         background_color: `#34449c`,
         theme_color: `#87cebb`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`,
+        icon: `src/images/icon.png`,
         include_favicon: true,
       },
     },

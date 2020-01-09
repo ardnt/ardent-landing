@@ -1,18 +1,22 @@
-import React from 'react'
-import { FaGithub } from 'react-icons/fa'
+import React from "react"
+import { FaGithub } from "react-icons/fa"
 
-import { Layout, Logo, SEO } from '../components'
-import { Intro, Tagline, SocialLink, SocialLinks } from '../ui'
-
+import { Layout, Logo, SEO } from "../components"
+import { Intro, Tagline, SocialLink, SocialLinks } from "../ui"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Hello!" keywords={[`ardent`, `company`, `labs`]} />
+    <SEO
+      title="Hello!"
+      keywords={[`ardent`, `ardnt`, `software`, `development`]}
+    />
     <Logo />
-    <Intro>The Ardent Company</Intro>
-    <Tagline>Working to improve transparency in modern organizations</Tagline>
+    <Intro>We're Ardent</Intro>
+    <Tagline>
+      We work hard to build delightful tools for modern organizations
+    </Tagline>
     <SocialLinks>
-      <SocialLink href="https://github.com/ardent-co" target="_blank">
+      <SocialLink href="https://github.com/ardnt" target="_blank">
         <FaGithub />
       </SocialLink>
     </SocialLinks>

@@ -1,9 +1,8 @@
-import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import React from "react"
+import { StaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
-import { LogoContainer } from '../ui'
-
+import { LogoContainer } from "../ui"
 
 const Logo = () => (
   <StaticQuery
@@ -20,13 +19,10 @@ const Logo = () => (
     `}
     render={data => (
       <LogoContainer>
-        <Img
-          fluid={data.placeholderImage.childImageSharp.fluid}
-        />
+        <Img fluid={data.placeholderImage.childImageSharp.fluid} />
       </LogoContainer>
     )}
   />
 )
-
 
 export { Logo }

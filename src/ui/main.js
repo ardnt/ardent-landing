@@ -1,15 +1,18 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
-import * as v from './variables'
-
+import * as v from "./variables"
 
 const Main = styled.div`
-  background: ${ v.background };
-  background: linear-gradient(to bottom, ${ v.backgroundStart } 0%, ${ v.backgroundStop } 100%);
-  color: ${ v.black };
+  background: ${v.background};
+  background: linear-gradient(
+    to bottom,
+    ${v.backgroundStart} 0%,
+    ${v.backgroundStop} 100%
+  );
+  color: ${v.black};
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   justify-content: center;
   min-height: 100vh;
   padding: 0 30px;
@@ -31,6 +34,5 @@ const Main = styled.div`
     font-size: 20px;
   }
 `
-
 
 export { Main }

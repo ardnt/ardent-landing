@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react"
 
-import { Layout, SEO } from '../components'
-
+import { Layout, SEO } from "../components"
 
 const NotFoundPage = () => (
   <Layout>
@@ -10,6 +9,5 @@ const NotFoundPage = () => (
     <p>You just hit a route that doesn&#39;t exist...</p>
   </Layout>
 )
-
 
 export default NotFoundPage
